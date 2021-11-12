@@ -50,8 +50,6 @@ jobs:
         run: npm ci
       - name: elm-tooling install
         run: npx --no-install elm-tooling install
-      - name: Tests
-        run: npm test
       - name: elm-review
         run: npx elm-review
       - name: elm-format
