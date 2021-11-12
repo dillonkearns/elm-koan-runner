@@ -12,7 +12,7 @@ module Koans01AboutExpects exposing (main)
 -- or you may expose all the members of another module
 
 import Expect
-import Test.Runner.Koan exposing (Test, describe, test)
+import Test.Koan exposing (Test, describe, test)
 
 
 main =
@@ -35,7 +35,7 @@ main =
                 x____replace me____x
                     |> Expect.notEqual False
         ]
-        |> Test.Runner.Koan.program
+        |> Test.Koan.program
 
 
 type FILL_ME_IN

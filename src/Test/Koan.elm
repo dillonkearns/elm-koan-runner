@@ -1,4 +1,4 @@
-module Test.Runner.Koan exposing
+module Test.Koan exposing
     ( program
     , Test, describe, test
     )
