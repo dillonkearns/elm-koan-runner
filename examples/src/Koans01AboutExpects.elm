@@ -1,19 +1,22 @@
-# `elm-koan-runner` [![Build Status](https://github.com/dillonkearns/elm-koan-runner/workflows/CI/badge.svg)](https://github.com/dillonkearns/elm-koan-runner/actions?query=branch%3Amain)
+module Koans01AboutExpects exposing (main)
 
-Thanks to Robert Looby and the other contributors to the [`elm-koans`](https://github.com/robertjlooby/elm-koans) project. This package was originally forked from the `elm-koans` test runner.
-
-This project helps you run koan-style Elm exercises.
-
-
-```elm
-module Main exposing (main)
-
+-- source: https://github.com/robertjlooby/elm-koans/blob/master/tests/Koans01AboutExpects.elm
+-- Single line comments begin with "--"
+{- Multi line comments
+   begin with "{-" and end with "-}"
+-}
+-- modules are named the same as their file name
+-- and list what members they publicly expose
+-- Other module names are referenced with `import`s
+-- members from other modules can be individually exposed within this module
+-- or you may expose all the members of another module
 
 import Expect
 import Test.Runner.Koan exposing (Test, describe, test)
 
 
 main =
+    -- `describe` takes the suite description and a list of `Test`s
     describe "About Expects"
         [ -- `test` takes the test description and a function that returns an
           -- `Expectation` when evaluated with the unit tuple `()`
@@ -47,4 +50,3 @@ me____x =
 x____replace : FILL_ME_IN -> a
 x____replace _ =
     Debug.todo "FILL IN THE BLANK"
-```

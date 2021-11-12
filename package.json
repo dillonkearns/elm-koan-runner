@@ -1,18 +1,17 @@
 {
-  "name": "REPLACEME",
+  "name": "elm-koan-runner",
   "version": "0.0.1",
-  "description": "REPLACEME",
+  "description": "An HTML test runner that shows one failing test at a time in the style of koan exercises.",
   "devDependencies": {
     "elm-review": "^2.3.3",
     "elm-test": "^0.19.1-revision4",
     "elm-tooling": "^1.0.2",
-    "elm-verify-examples": "^5.0.0",
     "prettier": "^2.2.1"
   },
   "scripts": {
-    "test": "elm-verify-examples --run-tests && elm-test",
+    "test": "elm-test",
     "postinstall": "elm-tooling install"
   },
-  "author": "REPLACEME",
+  "author": "Dillon Kearns",
   "license": "BSD-3-Clause"
 }
