@@ -209,7 +209,7 @@ viewHeader numRemaining numSeen =
         ]
         [ h1
             []
-            [ text "The Elm Decoder Koans" ]
+            [ text "Fill in the Blanks" ]
         , progress
             [ value (String.fromFloat numSeen)
             , Html.Attributes.max (String.fromFloat (numSeen + numRemaining))
