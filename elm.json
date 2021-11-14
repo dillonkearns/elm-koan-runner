@@ -3,7 +3,7 @@
     "name": "dillonkearns/elm-koan-runner",
     "summary": "An HTML test runner to show test results in the style of koan exercises.",
     "license": "BSD-3-Clause",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "exposed-modules": [
         "Test.Koan"
     ],
